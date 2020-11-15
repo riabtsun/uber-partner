@@ -1,0 +1,23 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  z-index: 1;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+}
+button:hover {
+  background-image: none;
+  background-color:  #1eacc7;
+}
+img {
+  width: 100%;
+}
+a:hover {
+  text-decoration: none;
+  color: #4ce2ff;
+}

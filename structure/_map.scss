@@ -1,0 +1,37 @@
+.map {
+  background-image: url('../img/map_xs.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  height: 360px;
+  position: relative;
+  @include media-breakpoint-up(sm) {
+    background-image: url('../img/map_bg.jpg');
+    padding-top: 49px;
+    padding-bottom: 49px;
+    min-height: 717px;  
+  }
+}
+.map__link {
+  text-align: center;
+  display: block;
+  margin-top: 174px;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1fbad6;
+  @include media-breakpoint-up(sm) {
+    margin-top: 400px;
+  }
+}
+.subtitle--map {
+  color: #fff;
+}
+.edge__h2--map {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
