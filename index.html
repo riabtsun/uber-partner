@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="work with uber partner">
+  <link rel="preload" as="font" href="./fonts/icomoon.woff">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./structure/main.css">
   <title>UBER PARTNER</title>
@@ -269,7 +270,7 @@
     <section class="decor-row">
       <span class="decor-row__text">Машины на каждый день.<br>
         Лучше, быстрее и дешевле, чем такси</span>
-      <img class="prius" src="./img/prius.png" alt="toyota prius">
+      <img class="prius" src="./img/prius.png" alt="toyota prius" loading="lazy">
     </section>
     <section class="require">
       <div class="container">
@@ -301,8 +302,8 @@
                 <li>
                   Деньги перечисляем на карту водителю или наличными в офисе
                 </li>
-                <span class="require__desq">В день заработок составляет 7000-12000р + бонус 3000т рублей</span>
               </ul>
+              <span class="require__desq">В день заработок составляет 7000-12000р + бонус 3000т рублей</span>
             </div>
           </div>
           <div class="col-md-6">
@@ -385,10 +386,10 @@
   <footer class="footer">
     <div class="footer-wrap">
       <ul class="network-list">
-        <li><a href="#" class="networks"><span class="icon icon-facebook"></span></a></li>
-        <li><a href="#" class="networks"><span class="icon icon-twitter"></span></a></li>
-        <li><a href="#" class="networks"><span class="icon icon-linkedin"></span></a></li>
-        <li><a href="#" class="networks"><span class="icon icon-instagram"></span></a></li>
+        <li><a href="#" class="networks"><span class="icon icon-facebook" aria-label="social network"></span></a></li>
+        <li><a href="#" class="networks"><span class="icon icon-twitter" aria-label="social network"></span></a></li>
+        <li><a href="#" class="networks"><span class="icon icon-linkedin" aria-label="social network"></span></a></li>
+        <li><a href="#" class="networks"><span class="icon icon-instagram" aria-label="social network"></span></a></li>
       </ul>
     </div>
     <div class="footer-wrap">
@@ -418,17 +419,17 @@
       <ul class="store-list">
         <li>
           <a href="#">
-            <img src="./img/app_store.png" alt="appstore">
+            <img src="./img/app_store.png" alt="appstore" loading="lazy">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="./img/google_play.png" alt="playmarket">
+            <img src="./img/google_play.png" alt="playmarket" loading="lazy">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="./img/windows_store.png" alt="windows store">
+            <img src="./img/windows_store.png" alt="windows store" loading="lazy">
           </a>
         </li>
       </ul>
@@ -436,21 +437,10 @@
 
   </footer>
 
-
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="./js/script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
 
-  <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-  -->
 </body>
 
 </html>
